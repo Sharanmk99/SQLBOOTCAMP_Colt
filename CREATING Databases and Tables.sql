@@ -1,0 +1,54 @@
+SHOW databases;
+
+CREATE DATABASE pet_shop;
+CREATE DATABASE SlimStore;
+
+DROP DATABASE SlimStore;
+DROP DATABASE pet_shop;
+
+USE cgemployee;
+SELECT database();
+
+CREATE DATABASE pet_shop;
+SHOW DATABASES;
+USE pet_shop;
+SELECT DATABASE()
+
+CREATE TABLE cats (name VARCHAR(50), age INT);
+CREATE TABLE dogs (name VARCHAR(50), breed VARCHAR(50), age INT);
+
+SHOW TABLES;
+SHOW COLUMNS FROM cats;
+
+DESCRIBE cats;
+DESC cats;
+DESC dogs;
+
+DROP TABLE cats;
+SHOW TABLES;
+
+CREATE TABLE pastries(name VARCHAR(50), quantity INT);
+SHOW TABLES;
+DESC pastries;
+DROP TABLE pastries;
+
+----- CREATING DATABASES AND TABLES COMPLETED
+------- COMPLETED SECTION 3
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
